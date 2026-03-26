@@ -1,4 +1,4 @@
-import java.util.HashSet;
+/*import java.util.HashSet;
 public class ControlloB{
 
     private HashSet<String> bigliettiValidati;
@@ -13,14 +13,11 @@ public class ControlloB{
             return "Biglietto già usato, accesso negato"; 
         } else {
             bigliettiValidati.add(codiceBiglietto);
-            return "Biglietto valido e ora registrato come validato";
+            return "Biglietto valido, accesso consentito";
         }
-    }
 
-     public int getNumeroPartecipantiUnici() {
-        return bigliettiValidati.size();
     }
-    
+  
     
     public String stampaCodiciEntrati() {
         StringBuilder sb = new StringBuilder();
@@ -33,4 +30,4 @@ public class ControlloB{
     }
 
 
-}
+}*/

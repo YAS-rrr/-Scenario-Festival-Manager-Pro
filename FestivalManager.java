@@ -1,10 +1,12 @@
 import java.util.ArrayList;
 
+
 public class FestivalManager {
     private ArrayList<String> artisti;
     
     public FestivalManager() {
         artisti = new ArrayList<>();
+      
     }
     
   
@@ -23,18 +25,22 @@ public class FestivalManager {
     }
     
 
-    public String stampaScalettaartisti() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("=== SCALETTA ARTISTI ===\n");
+    public void stampaScalettaartisti() {
         for (int i = 0; i < artisti.size(); i++) {
-            sb.append((i+1) + ". " + artisti.get(i) + "\n");
+            System.out.println((i+1) + ". " + artisti.get(i));
         }
-        return sb.toString();
+       
     }
     
     
     public ArrayList<String> getArtisti() {
         return artisti;
     }
+
+
+
+
+
+    
 
 }
